@@ -1,5 +1,15 @@
 # test_runner.py
 
+"""
+Description : Keyword Driven Testing Framework (KDTF) Test Runner file 
+Programmer : Suman Gangopadhyay
+Email ID : linuxgurusuman@gmail.com
+Date : 24-Feb-2025
+Version : 1.0
+Code Library : Selenium
+Prerequisites : Python, Selenium, ChromeDriver, YAML
+"""
+
 # Import necessary modules
 import yaml  # For parsing YAML files
 from SauceDemoMain import SauceDemoAutomation  # Import the automation class
