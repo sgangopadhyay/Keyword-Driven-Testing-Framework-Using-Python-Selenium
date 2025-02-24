@@ -1,9 +1,17 @@
 # SauceDemoMain.py
 
 """
-This script implements Python Selenium automation for the SauceDemo website.
-It includes classes for data, locators, and the main automation logic.
-Explicit waits are used to ensure elements are loaded before interacting with them.
+Program Description : This script implements Python Selenium automation for the SauceDemo website.
+                      It includes classes for data, locators, and the main automation logic.
+                      Explicit waits are used to ensure elements are loaded before interacting with them.
+
+Programmer : Suman Gangopadhyay
+Email ID : linuxgurusuman@gmail.com
+Date : 24-Feb-2025
+Version : 1.0
+Code Library : Selenium
+Prerequisites : Python, Selenium, ChromeDriver, YAML
+Caveats : None
 """
 
 # Import necessary Selenium modules
