@@ -1,0 +1,24 @@
+# test_case.yaml
+
+# Define a list of test cases to be executed
+test_cases:
+  # First test case: Validate Login Functionality
+  - name: "Validate Login Functionality"  # Name of the test case
+    steps:  # List of steps to be executed for this test case
+      # Step 1: Start the browser and navigate to the application URL
+      - action: "start"
+
+      # Step 2: Validate if the username input box is displayed on the page
+      - action: "validate_username_input_box"
+
+      # Step 3: Validate if the password input box is displayed on the page
+      - action: "validate_password_input_box"
+
+      # Step 4: Validate if the submit button is enabled on the page
+      - action: "validate_submit_button"
+
+      # Step 5: Perform login by entering username and password, and validate if login is successful
+      - action: "validate_login"
+
+      # Step 6: Shutdown the browser after the test case execution
+      - action: "shutdown"
